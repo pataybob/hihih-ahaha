@@ -16,6 +16,55 @@
     padding: 0;
     box-sizing: border-box;
     font-family: SF Pro Display Regular;
+    color: #fff;
+    font-size: 16px;
+    ul,li,ol{
+        list-style-type: none;
     }
+    a{
+        text-decoration: none;
+    }
+
+    }
+
+
+body{
+    background-color: #000000;
+    .wrapper{
+        .container{
+            max-width: 1140px;
+            margin: 0 auto;
+            header{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                margin: 50px 0 50px 0;
+                gap: 105px;
+                .header__logo{
+
+                }
+                .header__nav{
+                   ul{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 50px ;
+                    font-weight: 300;
+                    li{
+                        a{
+                            font-size: 15px;
+                        }
+                    }
+                   }
+                }
+                .header__btn{
+                    padding: 15px 35px;
+                    border-radius: 15px;
+                    background-color: #3F93ED;
+                }
+            }
+        }
+    }
+}
 
     
