@@ -35,7 +35,7 @@ body .wrapper .container {
 body .wrapper .container header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: row;
   margin: 50px 0 50px 0;
   gap: 105px;
@@ -43,14 +43,75 @@ body .wrapper .container header {
 body .wrapper .container header .header__nav ul {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 60px;
+  justify-content: center;
   font-weight: 300;
 }
 body .wrapper .container header .header__nav ul li a {
   font-size: 15px;
 }
 body .wrapper .container header .header__btn {
-  padding: 15px 35px;
+  padding: 10px 35px;
   border-radius: 15px;
   background-color: #3F93ED;
+}
+body .wrapper .container .hero__container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+body .wrapper .container .hero__container .text__side h1 {
+  font-size: 63px;
+}
+body .wrapper .container .hero__container .text__side h1 span {
+  font-size: 63px;
+  color: #2886EB;
+}
+body .wrapper .container .hero__container .text__side p {
+  font-size: 20px;
+  color: #767676;
+  max-width: 70%;
+}
+body .wrapper .container .slider__block {
+  margin-top: 150px;
+}
+body .wrapper .container .slider__block .slider__body {
+  width: 100%;
+  height: 425px;
+  border-radius: 40px;
+  background-color: #151515;
+  padding: 50px;
+}
+body .wrapper .container .slider__block .slider__body .slide {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+body .wrapper .container .slider__block .slider__body .slide .text__side {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+body .wrapper .container .slider__block .slider__body .slide .text__side h1 {
+  font-size: 44px;
+  line-height: 120%;
+  font-weight: 300;
+}
+body .wrapper .container .slider__block .slider__body .slide .text__side p {
+  font-size: 22px;
+  line-height: 120%;
+  font-weight: 300;
+  color: #767676;
+  max-width: 80%;
+}
+body .wrapper .container .slider__block .slider__body .slide .text__side a {
+  padding: 8px 30px;
+  border-radius: 10px;
+  background-color: #3F93ED;
+  font-weight: 300;
+  max-width: 35%;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

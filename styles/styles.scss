@@ -37,7 +37,7 @@ body{
             header{
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: space-around;
                 flex-direction: row;
                 margin: 50px 0 50px 0;
                 gap: 105px;
@@ -48,7 +48,8 @@ body{
                    ul{
                     display: flex;
                     flex-direction: row;
-                    gap: 50px ;
+                    gap: 60px ;
+                    justify-content: center;
                     font-weight: 300;
                     li{
                         a{
@@ -58,9 +59,72 @@ body{
                    }
                 }
                 .header__btn{
-                    padding: 15px 35px;
+                    padding: 10px 35px;
                     border-radius: 15px;
                     background-color: #3F93ED;
+                }
+            }
+            .hero__container{
+                margin-top: 100px;
+                display: flex;
+                flex-direction: row;
+                gap: 50px;
+                justify-content: center;
+                align-items: center;
+                .text__side{
+                    h1{
+                        font-size: 63px;
+                        span{
+                            font-size: 63px;
+                            color: #2886EB;
+                        }
+                    }
+                    p{
+                        font-size: 20px;
+                        color: #767676;
+                        max-width: 70%;
+                    }
+                }
+            }
+            .slider__block{
+                margin-top: 150px;
+                .slider__body{
+                    width: 100%;
+                    height: 425px;
+                    border-radius: 40px;
+                    background-color: #151515;
+                    padding: 50px;
+                    .slide{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 10px;
+                        .text__side{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 50px;
+                            h1{
+                                font-size: 44px;
+                                line-height: 120%;
+                                font-weight: 300;
+                            }
+                            p{
+                                font-size: 22px;
+                                line-height: 120%;
+                                font-weight: 300;
+                                color: #767676;
+                                max-width: 80%;
+                            }
+                            a{
+                                padding: 8px 30px;
+                                border-radius: 10px;
+                                background-color: #3F93ED;
+                                font-weight: 300;
+                                max-width: 35%;
+                                text-align: center;
+                            }
+                        }
+                    }
+
                 }
             }
         }
