@@ -1,1 +1,18 @@
-/*# sourceMappingURL=styles.css.map */
+@font-face {
+  font-family: SF Pro Display BOLD;
+  src: url(../fonts/SFPRODISPLAYBOLD.OTF);
+}
+@font-face {
+  font-family: SF Pro Display Regular;
+  src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+}
+@font-face {
+  font-family: SF Pro Display Medium;
+  src: url(../fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: SF Pro Display Regular;
+}/*# sourceMappingURL=styles.css.map */
