@@ -227,4 +227,95 @@ body .wrapper .container .study .study__container .study__row .study__item p {
 }
 body .wrapper .container .study .study__container .study__row .third__study__item h1 {
   max-width: 80%;
+}
+body .wrapper .container .courses {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+body .wrapper .container .courses .sign__up {
+  width: 570px;
+  height: 275px;
+  border-radius: 40px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  background-color: #2886EB;
+}
+body .wrapper .container .courses .sign__up h1 {
+  color: black;
+  font-size: 32px;
+  font-family: SF Pro Display BOLD;
+}
+body .wrapper .container .courses .sign__up h2 {
+  font-size: 21px;
+  font-weight: 500;
+}
+body .wrapper .container .courses .sign__up .credit__btn {
+  padding: 10px 32px 10px 32px;
+  border-radius: 12px;
+  background-color: #0D0D0D;
+  width: 45%;
+  text-align: center;
+}
+body .wrapper .container .courses .sign__up .credit__btn a {
+  font-size: 16px;
+  font-weight: 400;
+}
+body .wrapper .container .courses .sign__up .star__svg img {
+  position: relative;
+  top: -248px;
+  left: -30px;
+}
+body .wrapper .container .courses .credit {
+  width: 570px;
+  height: 214px;
+  border-radius: 0 25px 25px 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #171616;
+}
+body .wrapper .container .courses .credit h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+body .wrapper .container footer {
+  margin: 50px 0;
+}
+body .wrapper .container footer .footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+}
+body .wrapper .container footer .footer__container .footer__logo {
+  display: flex;
+  flex-direction: column;
+}
+body .wrapper .container footer .footer__container .footer__logo img {
+  width: 73px;
+  height: 30px;
+}
+body .wrapper .container footer .footer__container .footer__logo p {
+  font-weight: 700;
+}
+body .wrapper .container footer .footer__container .footer__item {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+body .wrapper .container footer .footer__container .footer__item h1 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #3F93ED;
+}
+body .wrapper .container footer .footer__container .footer__item p {
+  font-size: 16px;
+  font-family: SF Pro Display Regular;
+  font-weight: 300;
 }/*# sourceMappingURL=styles.css.map */

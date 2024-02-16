@@ -246,6 +246,100 @@ body{
                         }
                     }
                 }
+                .courses{
+                    margin-top: 100px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    .sign__up{
+                        width: 570px;
+                        height: 275px;
+                        border-radius: 40px;
+                        padding: 40px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 35px;
+                        background-color: #2886EB;
+                        h1{
+                            color: black;
+                            font-size: 32px;
+                            font-family: SF Pro Display BOLD;
+                        }
+                        h2{
+                            font-size: 21px;
+                            font-weight: 500;
+                        }
+                        .credit__btn{
+                            padding: 10px 32px 10px 32px;
+                            border-radius: 12px;
+                            background-color: #0D0D0D;
+                            width: 45%;
+                            text-align: center;
+                            a{
+                                font-size: 16px;
+                                font-weight: 400;
+                            }
+                        }
+                        .star__svg{
+                            img{
+                                position: relative;
+                                top: -248px;
+                                left: -30px;
+                            }
+                        }
+                    }
+                    .credit{
+                        width: 570px;
+                        height: 214px;
+                        border-radius: 0 25px 25px 0;
+                        padding: 40px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        background-color: #171616;
+                        h1{
+                            font-weight: 700;
+                            font-size: 32px;
+                        }
+                    }
+                }
+                footer{
+                    margin: 50px 0;
+
+                    .footer__container{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        gap: 30px;
+                        .footer__logo{
+                            display: flex;
+                            flex-direction: column;
+                            img{
+                                width: 73px ;
+                                height: 30px;
+                            }
+                            p{
+                                font-weight: 700;
+                            }
+                        }
+                        .footer__item{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 7px;
+                            h1{
+                                font-size: 19px ;
+                                font-weight: 700;
+                                color: #3F93ED;
+                            }
+                            p{
+                                font-size: 16px;
+                                font-family: SF Pro Display Regular;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
