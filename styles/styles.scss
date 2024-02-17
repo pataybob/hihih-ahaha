@@ -90,42 +90,80 @@ body{
             .slider__block{
                 margin-top: 150px;
                 .slider__body{
-                    width: 100%;
-                    height: 425px;
-                    border-radius: 40px;
-                    background-color: #151515;
-                    padding: 40px;
-                    .slide{
-                        display: flex;
-                        flex-direction: row;
-                        gap: 30px;
-                        .text__side{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    .left__arrow{
+                        position: relative;
+                        right: 20px;
+                        cursor: pointer;
+                    }
+                    .right__arrow{
+                        position: relative;
+                        left: 20px;
+                        cursor: pointer;
+                    }
+                    .slider{
+                        margin: 0 auto;
+                        min-width: 100%;
+                        height: 425px;
+                        border-radius: 40px;
+                        background-color: #151515;
+                        padding: 40px;
+                        .slide{
                             display: flex;
-                            flex-direction: column;
-                            gap: 50px;
-                            h1{
-                                font-size: 44px;
-                                line-height: 120%;
-                                font-weight: 300;
-                            }
-                            p{
-                                font-size: 22px;
-                                line-height: 120%;
-                                font-weight: 300;
-                                color: #767676;
-                                max-width: 80%;
-                            }
-                            a{
-                                padding: 8px 30px;
-                                border-radius: 10px;
-                                background-color: #3F93ED;
-                                font-weight: 300;
-                                max-width: 35%;
-                                text-align: center;
+                            flex-direction: row;
+                            gap: 30px;
+                            .text__side{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 50px;
+                                h1{
+                                    font-size: 44px;
+                                    line-height: 120%;
+                                    font-weight: 300;
+                                }
+                                p{
+                                    font-size: 22px;
+                                    line-height: 120%;
+                                    font-weight: 300;
+                                    color: #767676;
+                                    max-width: 80%;
+                                }
+                                a{
+                                    padding: 8px 30px;
+                                    border-radius: 10px;
+                                    background-color: #3F93ED;
+                                    font-weight: 300;
+                                    max-width: 35%;
+                                    text-align: center;
+                                }
                             }
                         }
                     }
 
+                }
+                .number__page{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px ;
+                    justify-content: center;
+                    margin-top: 13px;
+                    .current__slide{
+                        width: 30px ;
+                        height: 9px;
+                        background-color: #2886EB;
+                        border-radius: 8px;
+                        cursor: pointer;
+                    }
+                    .uncurrent__slide{
+                        height: 9px;
+                        width: 9px;
+                        border-radius: 100%;
+                        background-color: #333333;
+                        cursor: pointer;
+                    }
                 }
             }
             .about__us{
@@ -152,8 +190,23 @@ body{
                         display: flex;
                         flex-direction: column;
                         gap: 30px;
-                        .number{
-                            
+                        .ellipse{
+                            height: 25px;
+                            width: 25px;
+                            background-color: #2886EB;
+                            border-radius: 100%;
+                            align-items: center;
+                            display: flex;
+                            justify-content: center;
+                            .number{
+                                text-align: center;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                color: #0D0D0D;
+                                font-size: 15px;
+
+                            }
                         }
                         .title{
                             font-size: 20px;
@@ -491,7 +544,7 @@ body{
                 .footer__container{
                     display: flex;
                     flex-direction: row;
-                    justify-content: space-around;
+                    justify-content: space-between;
                     gap: 30px;
                     .footer__logo{
                         display: flex;
