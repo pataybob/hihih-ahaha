@@ -17,6 +17,7 @@
   font-family: SF Pro Display Regular;
   color: #fff;
   font-size: 16px;
+  font-weight: 300;
 }
 * ul, * li, * ol {
   list-style-type: none;
@@ -285,14 +286,20 @@ body .wrapper .container .courses .credit h1 {
   font-size: 32px;
 }
 body .wrapper .container .revievs {
-  margin: 200px 0 200px 0;
+  margin: 200px 0 0px 0;
 }
 body .wrapper .container .revievs h1 {
   font-size: 32px;
 }
 body .wrapper .container .revievs .grid__container {
+  max-height: 1200px;
+  margin-top: 100px;
+  gap: 10px;
   display: grid;
-  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 body .wrapper .container .revievs .grid__container .w-507 {
   padding: 15px;
@@ -328,6 +335,9 @@ body .wrapper .container .revievs .grid__container .w-334 {
   height: 334px;
   width: 274px;
   background-color: #171616;
+}
+body .wrapper .container .revievs .grid__container .w-334 .div2 {
+  grid-area: 1/2/2/3;
 }
 body .wrapper .container .revievs .grid__container .w-334 .bio {
   display: flex;
@@ -445,6 +455,13 @@ body .wrapper .container .revievs .grid__container .w-378 .content {
 }
 body .wrapper .container .revievs .grid__container .w-378 .content p {
   font-size: 17px;
+}
+body .wrapper .container .revievs .grid__container .kristin {
+  margin-top: 15px;
+}
+body .wrapper .container .revievs .grid__container .esther {
+  position: relative;
+  top: -180px;
 }
 body .wrapper .container footer {
   margin: 50px 0;

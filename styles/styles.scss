@@ -18,6 +18,7 @@
     font-family: SF Pro Display Regular;
     color: #fff;
     font-size: 16px;
+    font-weight: 300;
     ul,li,ol{
         list-style-type: none;
     }
@@ -305,13 +306,19 @@ body{
                     }
                 }
                 .revievs{
-                    margin: 200px 0 200px 0;
+                    margin: 200px 0 0px 0;
                     h1{
                         font-size: 32px;
                     }
                     .grid__container{
+                        max-height: 1200px;
+                        margin-top: 100px;
+                        gap: 10px;
                         display: grid;
-                        gap: 15px;
+                        grid-template-columns: repeat(4, 1fr);
+                        grid-template-rows: repeat(5, 1fr);
+                        grid-column-gap: 0px;
+                        grid-row-gap: 0px;
                         .w-507{
                             padding: 15px;
                             border-radius: 15px;
@@ -347,6 +354,8 @@ body{
                             height: 334px;
                             width: 274px;
                             background-color: #171616;
+                            .div2 { grid-area: 1 / 2 / 2 / 3; }
+
                             .bio{
                                 display: flex;
                                 flex-direction: row;
@@ -466,9 +475,18 @@ body{
                                 }
                             }
                         }
+                        .kristin{
+                            margin-top: 15px;
+
+                        }
+                        .esther{
+                            position: relative;
+                            top: -180px;
+                        }
                     }
                 }
             footer{
+                
                 margin: 50px 0;
                 .footer__container{
                     display: flex;
