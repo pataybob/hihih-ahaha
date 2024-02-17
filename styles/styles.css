@@ -284,6 +284,168 @@ body .wrapper .container .courses .credit h1 {
   font-weight: 700;
   font-size: 32px;
 }
+body .wrapper .container .revievs {
+  margin: 200px 0 200px 0;
+}
+body .wrapper .container .revievs h1 {
+  font-size: 32px;
+}
+body .wrapper .container .revievs .grid__container {
+  display: grid;
+  gap: 15px;
+}
+body .wrapper .container .revievs .grid__container .w-507 {
+  padding: 15px;
+  border-radius: 15px;
+  height: 507px;
+  width: 274px;
+  background-color: #171616;
+}
+body .wrapper .container .revievs .grid__container .w-507 .bio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+body .wrapper .container .revievs .grid__container .w-507 .bio .info__side {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+body .wrapper .container .revievs .grid__container .w-507 .bio .info__side .name {
+  font-size: 18px;
+}
+body .wrapper .container .revievs .grid__container .w-507 .bio .info__side .date {
+  font-size: 16px;
+  color: #767676;
+}
+body .wrapper .container .revievs .grid__container .w-507 .content {
+  padding: 15px 0;
+}
+body .wrapper .container .revievs .grid__container .w-334 {
+  padding: 15px;
+  border-radius: 15px;
+  height: 334px;
+  width: 274px;
+  background-color: #171616;
+}
+body .wrapper .container .revievs .grid__container .w-334 .bio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+body .wrapper .container .revievs .grid__container .w-334 .bio .info__side {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+body .wrapper .container .revievs .grid__container .w-334 .bio .info__side .name {
+  font-size: 18px;
+}
+body .wrapper .container .revievs .grid__container .w-334 .bio .info__side .date {
+  font-size: 16px;
+  color: #767676;
+}
+body .wrapper .container .revievs .grid__container .w-334 .content {
+  padding: 10px 0;
+}
+body .wrapper .container .revievs .grid__container .w-334 .content p {
+  font-size: 17px;
+}
+body .wrapper .container .revievs .grid__container .w-532 {
+  padding: 15px;
+  border-radius: 15px;
+  height: 532px;
+  width: 274px;
+  background-color: #171616;
+}
+body .wrapper .container .revievs .grid__container .w-532 .bio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+body .wrapper .container .revievs .grid__container .w-532 .bio .info__side {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+body .wrapper .container .revievs .grid__container .w-532 .bio .info__side .name {
+  font-size: 18px;
+}
+body .wrapper .container .revievs .grid__container .w-532 .bio .info__side .date {
+  font-size: 16px;
+  color: #767676;
+}
+body .wrapper .container .revievs .grid__container .w-532 .content {
+  padding: 20px 0px;
+}
+body .wrapper .container .revievs .grid__container .w-532 .content p {
+  font-size: 17px;
+}
+body .wrapper .container .revievs .grid__container .w-422 {
+  padding: 15px;
+  border-radius: 15px;
+  height: 422px;
+  width: 274px;
+  background-color: #171616;
+}
+body .wrapper .container .revievs .grid__container .w-422 .bio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+body .wrapper .container .revievs .grid__container .w-422 .bio .info__side {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+body .wrapper .container .revievs .grid__container .w-422 .bio .info__side .name {
+  font-size: 18px;
+}
+body .wrapper .container .revievs .grid__container .w-422 .bio .info__side .date {
+  font-size: 16px;
+  color: #767676;
+}
+body .wrapper .container .revievs .grid__container .w-422 .content {
+  padding: 20px 0px;
+}
+body .wrapper .container .revievs .grid__container .w-422 .content p {
+  font-size: 17px;
+}
+body .wrapper .container .revievs .grid__container .w-378 {
+  padding: 15px;
+  border-radius: 15px;
+  height: 378px;
+  width: 274px;
+  background-color: #171616;
+}
+body .wrapper .container .revievs .grid__container .w-378 .bio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+body .wrapper .container .revievs .grid__container .w-378 .bio .info__side {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+body .wrapper .container .revievs .grid__container .w-378 .bio .info__side .name {
+  font-size: 18px;
+}
+body .wrapper .container .revievs .grid__container .w-378 .bio .info__side .date {
+  font-size: 16px;
+  color: #767676;
+}
+body .wrapper .container .revievs .grid__container .w-378 .content {
+  padding: 20px 0px;
+}
+body .wrapper .container .revievs .grid__container .w-378 .content p {
+  font-size: 17px;
+}
 body .wrapper .container footer {
   margin: 50px 0;
 }

@@ -304,44 +304,207 @@ body{
                         }
                     }
                 }
-                footer{
-                    margin: 50px 0;
-
-                    .footer__container{
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-around;
-                        gap: 30px;
-                        .footer__logo{
-                            display: flex;
-                            flex-direction: column;
-                            img{
-                                width: 73px ;
-                                height: 30px;
+                .revievs{
+                    margin: 200px 0 200px 0;
+                    h1{
+                        font-size: 32px;
+                    }
+                    .grid__container{
+                        display: grid;
+                        gap: 15px;
+                        .w-507{
+                            padding: 15px;
+                            border-radius: 15px;
+                            height: 507px;
+                            width: 274px;
+                            background-color: #171616;
+                            .bio{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                gap: 15px;
+                                .info__side{
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 2px;
+                                    .name{
+                                        font-size: 18px;
+                                    }
+                                    .date{
+                                        font-size: 16px;
+                                        color: #767676;
+                                    }
+                                }
                             }
-                            p{
-                                font-weight: 700;
+                            .content{
+                                padding: 15px 0;
+                                
                             }
                         }
-                        .footer__item{
-                            display: flex;
-                            flex-direction: column;
-                            gap: 7px;
-                            h1{
-                                font-size: 19px ;
-                                font-weight: 700;
-                                color: #3F93ED;
+                        .w-334{
+                            padding: 15px;
+                            border-radius: 15px;
+                            height: 334px;
+                            width: 274px;
+                            background-color: #171616;
+                            .bio{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                gap: 15px;
+                                .info__side{
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 2px;
+                                    .name{
+                                        font-size: 18px;
+                                    }
+                                    .date{
+                                        font-size: 16px;
+                                        color: #767676;
+                                    }
+                                }
                             }
-                            p{
-                                font-size: 16px;
-                                font-family: SF Pro Display Regular;
-                                font-weight: 300;
+                            .content{
+                                padding: 10px 0;
+                                p{
+                                    font-size: 17px;
+                                }
+                            }
+                            
+                        }
+                        .w-532{
+                            padding: 15px;
+                            border-radius: 15px;
+                            height: 532px;
+                            width: 274px;
+                            background-color: #171616;                           
+                             .bio{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                gap: 15px;
+                                .info__side{
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 2px;
+                                    .name{
+                                        font-size: 18px;
+                                    }
+                                    .date{
+                                        font-size: 16px;
+                                        color: #767676;
+                                    }
+                                }
+                            }
+                            .content{
+                                padding: 20px 0px;
+                                p{
+                                    font-size: 17px;
+                                }
+                            }
+                        }
+                        .w-422{
+                            padding: 15px;
+                            border-radius: 15px;
+                            height: 422px;
+                            width: 274px;
+                            background-color: #171616;                           
+                             .bio{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                gap: 15px;
+                                .info__side{
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 2px;
+                                    .name{
+                                        font-size: 18px;
+                                    }
+                                    .date{
+                                        font-size: 16px;
+                                        color: #767676;
+                                    }
+                                }
+                            }
+                            .content{
+                                padding: 20px 0px;
+                                p{
+                                    font-size: 17px;
+                                }
+                            }
+                        }
+                        .w-378{
+                            padding: 15px;
+                            border-radius: 15px;
+                            height: 378px;
+                            width: 274px;
+                            background-color: #171616;                           
+                             .bio{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                gap: 15px;
+                                .info__side{
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 2px;
+                                    .name{
+                                        font-size: 18px;
+                                    }
+                                    .date{
+                                        font-size: 16px;
+                                        color: #767676;
+                                    }
+                                }
+                            }
+                            .content{
+                                padding: 20px 0px;
+                                p{
+                                    font-size: 17px;
+                                }
                             }
                         }
                     }
                 }
-            }
+            footer{
+                margin: 50px 0;
+                .footer__container{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    gap: 30px;
+                    .footer__logo{
+                        display: flex;
+                        flex-direction: column;
+                        img{
+                            width: 73px ;
+                            height: 30px;
+                        }
+                        p{
+                            font-weight: 700;
+                        }
+                    }
+                    .footer__item{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 7px;
+                        h1{
+                            font-size: 19px ;
+                            font-weight: 700;
+                            color: #3F93ED;
+                        }
+                        p{
+                            font-size: 16px;
+                            font-family: SF Pro Display Regular;
+                            font-weight: 300;
+                        }
+                    }
+                }
+             }
         }
-    }
+     }
+}
 
     
